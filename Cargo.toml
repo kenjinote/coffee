@@ -16,7 +16,7 @@ exclude = ["images/*"]
 features = ["opengl", "debug"]
 
 [features]
-default = []
+default = ["opengl"]
 opengl = ["gfx", "gfx_core", "glutin", "gfx_device_gl", "gfx_glyph"]
 vulkan = ["wgpu", "wgpu_glyph", "zerocopy", "futures"]
 metal = ["wgpu", "wgpu_glyph", "zerocopy", "futures"]
